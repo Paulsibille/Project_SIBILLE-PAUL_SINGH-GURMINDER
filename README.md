@@ -33,13 +33,23 @@ Here is the description on the severall files you can find on the github:
 There are different packages that we have used in order to make perform the analysis: 
 
 pip install pandas
+
 pip install numpy
+
 pip install xlsxwriter
+
 pip install yfinance
+
 pip install requests
+
 pip install beautifulsoup4
+
 pip install selenium
+
 pip install quandl
+
 pip install statsmodels
+
 pip install matplotlib
+
 METTRE LES PACKAGE POUR STREAMLIT
