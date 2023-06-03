@@ -54,13 +54,11 @@ Here is the description of the several files you can find on GitHub:
 
 1. ```Mithra_statement.xlsx``` is an Excel file that contains the cash flow statement, the income statement, and the balance sheet of Mithra. This Excel file is important since it is where the main financial data related to the company is retrieved.
 
-2. ```Mithra Valuation.ipynb``` is a Jupyter Notebook where all the different computations have been carried out, allowing
-
- us to export all the results into an Excel file. This Excel file will be created and exported in the same directory as the Jupyter Notebook.
+2. ```Mithra Valuation.ipynb``` is a Jupyter Notebook where all the different computations have been carried out, allowing us to export all the results into an Excel file. This Excel file will be created and exported in the same directory as the Jupyter Notebook.
 
 3. ```Streamlit_app``` is the main file that contains all the necessary files to deploy the Streamlit app.
 
-## 3. Packages to Install
+## Packages to Install
 
 To run the analysis and the Streamlit web application, the following packages need to be installed:
 
@@ -166,14 +164,6 @@ https://github.com/GurminSingh/Valuation_App/assets/127745669/e3b8729e-6599-4acf
 
 
 
-
-### Customization
-
-You can customize the web applications by modifying the code. Each application has specific files and sections that can be customized to fit your needs. Refer to the individual application's readme file for more information on customization options.
-
-### Contributing
-
-Contributions to this project are welcome. If you have any ideas, suggestions, or improvements, please open an issue or submit a pull request.
 
 ### Contact
 
