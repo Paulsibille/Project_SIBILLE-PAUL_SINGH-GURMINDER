@@ -30,8 +30,8 @@ We both serve as managing directors in different sectors of the junior enterpris
 
 The central question we seek to answer through this analysis is: "Is Mithra's stock currently overpriced or underpriced?"
 
-To carry out this project, we rely on several data sources. We retrieve relevant data from an Excel file named ```Mithra_statement.xlsx"``` and utilize the yfinance API to gather information on the number of outstanding shares and other relevant data points. Additionally, we used Quandl to access financial data from other American companies. To retrieve specific information, we employ web scraping techniques using tools such as ```Beautiful Soup``` and Selenium, targeting websites such as Damodaran's ```https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.html```  and slickcharts
-```https://www.slickcharts.com/```
+To carry out this project, we rely on several data sources. We retrieve relevant data from an Excel file named ```Mithra_statement.xlsx"``` and utilize the yfinance API to gather information on the number of outstanding shares and other relevant data points. Additionally, we used Quandl to access financial data from other American companies. To retrieve specific information, we employ web scraping techniques using tools such as ```Beautiful Soup``` and ```Selenium```, targeting websites such as Damodaran ```https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.html```, slickcharts
+```https://www.slickcharts.com/``` and World Government Bonds ```http://www.worldgovernmentbonds.com/```
 
 
 In terms of data works, we primarily use pandas to help us organize and process the data, while the statistics module enables us to perform basic statistical calculations like medians and means. For more advanced analysis, we employ the statsmodels package, which allows us to conduct multiple linear regressions. Additionally, we use ```NumPy``` and its Normal function for conducting Monte Carlo analysis.
