@@ -9,8 +9,7 @@ import plotly.graph_objs as go
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import base64
-import sys
-sys.path.append('https://github.com/GurminSingh/test/tree/ec698ac3d5bd72359309efd47d786223f75a52c1/streamlit-multipage-app-example-master')
+
 # Setting the page configuration
 st.set_page_config(
     page_title="Product"
@@ -28,10 +27,8 @@ st.markdown(hide_default_format, unsafe_allow_html=True)
 # Displaying a header
 st.markdown('<h1 style="color: #003554;"> Product</h1>', unsafe_allow_html=True)
 
-# Adding a path to sys.path
-sys.path.append('/Users/gavysingh/Downloads/streamlit-multipage-app-example-master')  # Replace 'path/to/directory' with the actual path
-
 # Importing from a module called Valuation
+Valuation ="Streamlit_app/Valuation.py"
 from Valuation import Assumption_revenues_df
 
 # Defining a function to format float values
