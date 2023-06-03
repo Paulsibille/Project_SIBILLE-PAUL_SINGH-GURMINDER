@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
-import sys
-sys.path.append('https://github.com/GurminSingh/test/tree/ec698ac3d5bd72359309efd47d786223f75a52c1/streamlit-multipage-app-example-master')
+
 # Set the page configuration and title
 st.set_page_config(
     page_title="Futur FCFF"
@@ -20,6 +19,7 @@ st.markdown(hide_default_format, unsafe_allow_html=True)
 # Display a title using HTML markup
 st.markdown('<h1 style="color: #003554;">Futur Free Cash Flow to Firm</h1>', unsafe_allow_html=True)
 
+Valuation ="Streamlit_app/Valuation.py"
 from Valuation import Futur_FCFF_df
 
 # Define a function to format float values
