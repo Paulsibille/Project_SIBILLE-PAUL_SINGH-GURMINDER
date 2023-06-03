@@ -3,9 +3,6 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-import sys
-sys.path.append('Streamlit_app/Valuation.py')
-
 # Setting the page title
 st.set_page_config(page_title="FCFF")
 
@@ -25,6 +22,7 @@ st.markdown(hide_default_format, unsafe_allow_html=True)
 st.markdown('<h1 style="color: #003554;">Free Cash Flow to Firm</h1>', unsafe_allow_html=True)
 
 # Importing the FCFF_df from the Valuation module
+Valuation ="Streamlit_app/Valuation.py"
 from Valuation import FCFF_df
 
 # Function to format float values
