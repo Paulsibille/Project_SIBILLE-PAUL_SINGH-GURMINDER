@@ -2,8 +2,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
-import sys
-sys.path.append('https://github.com/GurminSingh/test/tree/ec698ac3d5bd72359309efd47d786223f75a52c1/streamlit-multipage-app-example-master')
+
 # Set the page title
 st.set_page_config(page_title="NWC")
 
@@ -20,6 +19,7 @@ st.markdown(hide_default_format, unsafe_allow_html=True)
 st.markdown('<h1 style="color: #003554;">Net Working Capital</h1>', unsafe_allow_html=True)
 
 # Import necessary modules and data
+Valuation ="Streamlit_app/Valuation.py"
 from Valuation import combined_df, M
 
 # Define a function to format float values
