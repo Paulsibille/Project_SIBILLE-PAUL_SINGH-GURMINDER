@@ -2,8 +2,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
-import sys
-sys.path.append('https://github.com/GurminSingh/test/tree/ec698ac3d5bd72359309efd47d786223f75a52c1/streamlit-multipage-app-example-master')
+
 # Setting page configuration
 st.set_page_config(
     page_title="Cost of Debt"
@@ -22,6 +21,7 @@ st.markdown(hide_default_format, unsafe_allow_html=True)
 st.markdown('<h1 style="color: #003554;">The Cost of Debt</h1>', unsafe_allow_html=True)
 
 # Importing required data and functions from Valuation module
+Valuation ="Streamlit_app/Valuation.py"
 from Valuation import df, ratio, spread, total_debt, w_avg_maturity, cost_of_debt, debts, mv_debt, rf
 
 # Function to format float values
