@@ -19,8 +19,6 @@
   - [Discounted Cash Flow (DCF) Model and Monte Carlo Simulation](#discounted-cash-flow-dcf-model-and-monte-carlo-simulation)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Customization](#customization)
-- [Contributing](#contributing)
 - [Contact](#contact)
 
 ## Presentation and summary of the analysis
