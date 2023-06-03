@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
-import sys
-sys.path.append('https://github.com/GurminSingh/test/tree/ec698ac3d5bd72359309efd47d786223f75a52c1/streamlit-multipage-app-example-master')
+
 st.set_page_config(
     page_title="Cost of Equity"
 )
@@ -17,6 +16,7 @@ st.markdown(hide_default_format, unsafe_allow_html=True)
 st.markdown('<h1 style="color: #003554;">The Cost of Equity</h1>', unsafe_allow_html=True)
 
 # Importing required functions from the "Valuation" module
+Valuation ="Streamlit_app/Valuation.py"
 from Valuation import erp, shares_outstanding, Current_Share_Price, definitive_coef_0, definitive_coef_2, stati_mean_SMB, marketCap, definitive_coef_1, stati_mean_HML, cost_of_equity
 
 # Formatting the data for display
