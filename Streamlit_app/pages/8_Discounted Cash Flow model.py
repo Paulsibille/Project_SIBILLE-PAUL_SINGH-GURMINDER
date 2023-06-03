@@ -7,7 +7,6 @@ import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 import base64
 import streamlit.components.v1 as components
-import sys
 # Set the page configuration
 st.set_page_config(
     page_title="DCF"
@@ -26,7 +25,7 @@ st.markdown(hide_default_format, unsafe_allow_html=True)
 st.markdown('<h1 style="color: #003554;">The Discounted Cash Flow model</h1>', unsafe_allow_html=True)
 
 # Import required modules
-sys.path.append('https://github.com/GurminSingh/test/tree/ec698ac3d5bd72359309efd47d786223f75a52c1/streamlit-multipage-app-example-master')  # Replace 'path/to/directory' with the actual path
+Valuation ="Streamlit_app/Valuation.py"
 from Valuation import sum_DCF, Discounted_Terminal_Value, Forecasted_Enterprise_Value, mv_debt, last_cash, Forecasted_Market_Cap, Forecasted_Share_Price, Current_Share_Price, gap_in_pct, wacc, share_price_mt
 
 # Function to format floating-point numbers
