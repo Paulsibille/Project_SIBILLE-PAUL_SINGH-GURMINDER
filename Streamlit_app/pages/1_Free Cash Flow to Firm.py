@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import sys
-sys.path.append('https://github.com/GurminSingh/test/tree/ec698ac3d5bd72359309efd47d786223f75a52c1/streamlit-multipage-app-example-master')
+sys.path.append('Streamlit_app/Valuation.py')
 
 # Setting the page title
 st.set_page_config(page_title="FCFF")
