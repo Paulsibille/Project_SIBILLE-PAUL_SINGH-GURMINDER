@@ -11,7 +11,7 @@
 import pandas as pd
 import numpy as np
 
-all_statements_path = 'streamlit-multipage-app-example-master/Classeur3.xlsx'
+all_statements_path = 'Mithra_statement.xlsx'
 
 def load_and_clean_statement_df(statements_path, sheet_name):
     df = pd.read_excel(statements_path, sheet_name=sheet_name, engine='openpyxl', index_col=0)
