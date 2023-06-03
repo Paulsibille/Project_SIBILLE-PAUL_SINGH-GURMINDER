@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import sys
-sys.path.append('https://github.com/GurminSingh/test/tree/ec698ac3d5bd72359309efd47d786223f75a52c1/streamlit-multipage-app-example-master')
 st.set_page_config(
     page_title="WACC"
 )
@@ -18,6 +16,7 @@ st.markdown(hide_default_format, unsafe_allow_html=True)
 # Set the title of the page
 st.markdown('<h1 style="color: #003554;">Weighted Average Cost of Capital</h1>', unsafe_allow_html=True)
 
+Valuation ="Streamlit_app/Valuation.py"
 from Valuation import cost_of_equity, cost_of_debt, cap_structure, w_cost_equity, w_cost_debt, wacc
 
 # Function to format floating-point numbers
