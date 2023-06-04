@@ -147,19 +147,15 @@ pip install -r requirements.txt
 
 ### Usage
 
-To run any of the web applications, execute the following command:
+To run a the web applications, execute the following command in your terminal:
 
 ```
-streamlit run Company.py
+streamlit run path/Company.py
 ```
-
+ 
 Open your web browser and access the provided URL to interact with the application.
 
-
-
-
-https://github.com/GurminSingh/Valuation_App/assets/127745669/e3b8729e-6599-4acf-b18c-934c1d472e05
-
+https://github.com/Paulsibille/Project_SIBILLE-PAUL_SINGH-GURMINDER/assets/127745669/038f4562-01b5-42fe-b171-6a96939e27e0
 
 
 
