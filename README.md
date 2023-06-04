@@ -1,5 +1,5 @@
 
-# Project - Financial modeling using Python - The case of Mithra - SIBILLE  & SINGH
+# Project - Python-Powered DCF Analysis - The case of Mithra - SIBILLE  & SINGH
 
 ## Table of Contents:
 
