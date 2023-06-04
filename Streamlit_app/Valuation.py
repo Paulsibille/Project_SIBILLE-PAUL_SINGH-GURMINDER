@@ -784,7 +784,7 @@ your_company='MITRA.BR'
 shares_outstanding=yf.Ticker(your_company).get_shares_full(start="2022-01-01", end=None)[-1]
 Current_Share_Price=yf.Ticker(your_company).history(period='5y')['Close'][-1]
 definitive_coef_0= 0.7839533865431152
-definitive_coef_2= -0.5874647472085721
+definitive_coef_2= -0.122
 stati_mean_SMB = -0.0010829996202718756
 definitive_coef_1= 0.0
 stati_mean_HML= 0.00012143476287178781
