@@ -19,6 +19,7 @@
   - [Discounted Cash Flow (DCF) Model and Monte Carlo Simulation](#discounted-cash-flow-dcf-model-and-monte-carlo-simulation)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Streamlit cloud ](#Streamlit-cloud) 
 - [Contact](#contact)
 
 ## Presentation and summary of the analysis
@@ -155,9 +156,13 @@ streamlit run path/Company.py
  
 Open your web browser and access the provided URL to interact with the application.
 
+
 https://github.com/Paulsibille/Project_SIBILLE-PAUL_SINGH-GURMINDER/assets/127745669/038f4562-01b5-42fe-b171-6a96939e27e0
 
+### Streamlit cloud 
 
+If you prefer not to deploy the app using your terminal, you can simply click on the link below. We have launch of our website and accessible to everyone. This accomplishment was made possible by utilizing Streamlit Cloud for hosting the web application.
+```https://mithra-valuation.streamlit.app/```
 
 ### Contact
 
