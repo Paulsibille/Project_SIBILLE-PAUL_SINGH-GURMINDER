@@ -147,7 +147,7 @@ pip install -r requirements.txt
 
 ### Usage
 
-To run a the web applications, execute the following command in your terminal:
+To run the web applications, execute the following command in your terminal:
 
 ```
 streamlit run path/Company.py
